@@ -10,3 +10,12 @@ strlen(arr);
 1.strlen和sizeof没有什么关联
 2.strlen-求字符串长度，库函数使用需要引入头文件
 3.sizeof-计算变量，数组，类型大小，单位是字节，是一个操作符
+
+
+例：
+char arr1[]="abc"
+char arr2[]={'a','b','c'}
+sizeof(arr1)3
+sizeof(arr2)3
+strlen(arr1)3
+strlen(arr2)随机数[abc]不知道\0在哪
