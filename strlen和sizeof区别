@@ -1,0 +1,7 @@
+例：arr[]=“abcdef”；
+sizeof(arr);
+strlen(arr);
+
+
+*sizeof 计算arr所占空间大小，7个元素-char7*1=7
+*strlrn求字符串长度，[a b c d e f \0] 求\0之前的字符个数
